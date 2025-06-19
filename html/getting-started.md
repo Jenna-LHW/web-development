@@ -6,7 +6,7 @@
 - [First HTML File](#first-html-file)
 - [HTML Syntax](#html-syntax)
 - [HTML Syntax: Attributes and Values](#html-syntax-attributes-and-values)
-- [HTML Syntax: HTML, Head and Body Tags](#html-syntax-html,-head-and-body-tags)
+- [HTML Syntax: HTML, Head and Body Tags](#html-syntax-html-head-and-body-tags)
   
 ## Introduction to HTML
 **What is HTML?**  
@@ -223,3 +223,7 @@ Here is an example of the body section in an HTML document:
 > </body>
 > </html>
 > ```
+
+---
+**Navigation:**  
+[← Back to Notes Index](README.md) | [Next: Formatting Text and Organising Data →](02-formatting-text-and-organising-data.md)
