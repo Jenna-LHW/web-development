@@ -3,10 +3,10 @@
 ## What You will Learn
 
 - [Headings](#headings)
-- [Paragraphs and Text Formatting - Part 1](#paragraphs-and-text-formatting-part-1)
-- [Paragraphs and Text Formatting - Part 2](#paragraphs-and-text-formatting-part-2)
-- [Paragraphs and Text Formatting - Part 3](#paragraphs-and-text-formatting-part-3)
-- [Paragraphs and Text Formatting - Part 4](#paragraphs-and-text-formatting-part-4)
+- [Paragraphs and Text Formatting - Part 1](#paragraphs-and-text-formatting---part-1)
+- [Paragraphs and Text Formatting - Part 2](#paragraphs-and-text-formatting---part-2)
+- [Paragraphs and Text Formatting - Part 3](#paragraphs-and-text-formatting---part-3)
+- [Paragraphs and Text Formatting - Part 4](#paragraphs-and-text-formatting---part-4)
 - [Lists](#lists).
 - [Tables](#tables).
 
