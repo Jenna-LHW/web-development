@@ -306,3 +306,286 @@ Output:
 >  </li>
 >  <li>Third item</li>
 ></ul>
+
+## Tables
+### Creating a Basic Table
+To create a basic table, you need to use three elements: `<table>`, `<tr>` and `<td>`.
+
+The `<table>` element defines the entire table, and the `<tr>` element defines a row within the table. The `<td>` element defines a cell within a row.
+
+```HTML
+<table>
+  <tr>
+    <td>Row 1, Column 1</td>
+    <td>Row 1, Column 2</td>
+  </tr>
+  <tr>
+    <td>Row 2, Column 1</td>
+    <td>Row 2, Column 2</td>
+  </tr>
+</table>
+```
+Output:
+><table>
+>  <tr>
+>    <td>Row 1, Column 1</td>
+>    <td>Row 1, Column 2</td>
+>  </tr>
+>  <tr>
+>    <td>Row 2, Column 1</td>
+>    <td>Row 2, Column 2</td>
+>  </tr>
+></table>
+
+### Adding Headers
+To add header rows, we use the `<th>` element. The `<th>` element works the same as the `<td>` element but it is used to define headers cells. Heades cells are often displayed in bold and centered by default.
+
+```HTML
+<table>
+  <tr>
+    <th>Service</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Web design</td>
+    <td>$500</td>
+  </tr>
+  <tr>
+    <td>Graphic design</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <td>Content writing</td>
+    <td>$200</td>
+  </tr>
+  <tr>
+    <td>Social media management</td>
+    <td>$150</td>
+  </tr>
+</table>
+```
+Output:
+<table>
+  <tr>
+    <th>Service</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Web design</td>
+    <td>$500</td>
+  </tr>
+  <tr>
+    <td>Graphic design</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <td>Content writing</td>
+    <td>$200</td>
+  </tr>
+  <tr>
+    <td>Social media management</td>
+    <td>$150</td>
+  </tr>
+</table>
+
+### Merging Cells
+In HTML tables, it is possible to merge two or more cells in a row or a column to create a larger cell that spans multiple rows or columns. 
+
+You can merge cells in a table using the `colspan` and `rowspan` attributes. The `colspan` attribute specifies how many columns a cell should span (merges cells horizontally), while the `rowspan` attribute specifies how many rows a cell should span (merges cells vertically).
+
+```HTML
+<table>
+  <tr>
+    <th rowspan="2">Product</th>
+    <th colspan="2">Price</th>
+  </tr>
+  <tr>
+    <th>Old</th>
+    <th>New</th>
+  </tr>
+  <tr>
+    <td>Product 1</td>
+    <td>$10.00</td>
+    <td>$12.00</td>
+  </tr>
+  <tr>
+    <td>Product 2</td>
+    <td>$15.00</td>
+    <td>$18.00</td>
+  </tr>
+</table>
+```
+Output:
+<table>
+  <tr>
+    <th rowspan="2">Product</th>
+    <th colspan="2">Price</th>
+  </tr>
+  <tr>
+    <th>Old</th>
+    <th>New</th>
+  </tr>
+  <tr>
+    <td>Product 1</td>
+    <td>$10.00</td>
+    <td>$12.00</td>
+  </tr>
+  <tr>
+    <td>Product 2</td>
+    <td>$15.00</td>
+    <td>$18.00</td>
+  </tr>
+</table>
+
+### The `<caption>` Element
+The `<caption>` element is used to add a title or caption to an HMTL table. It is a container tag that should be placed immediately after the opening `<table>` tag and before any other elements.
+
+```HTML
+<table>
+  <caption>Product Prices</caption>
+  <tr>
+    <th>Product</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Product 1</td>
+    <td>$10.00</td>
+  </tr>
+  <tr>
+    <td>Product 2</td>
+    <td>$15.00</td>
+  </tr>
+</table>
+```
+Output:
+<table>
+  <caption>Product Prices</caption>
+  <tr>
+    <th>Product</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Product 1</td>
+    <td>$10.00</td>
+  </tr>
+  <tr>
+    <td>Product 2</td>
+    <td>$15.00</td>
+  </tr>
+</table>
+
+### The `<table>` Tag and its Attributes
+The `<table>` tag in HTML has some attributes you can use to change how tables appear. You can add these attributes to the opening `<table>` tag, and they let you control things like the size and layout of the table, as well as the color and border style of the cells.
+
+> ⚠️ Note: While older HTML versions allowed direct styling using attributes, modern best practice recommends using CSS for layout and design.
+
+Some of the most commonly used attributes include:
+-  `border`, which sets the border size of the table (deprecated in HTML 5, CSS should be used instead).
+- `cellspacing`, which sets the space between cells in the table (deprecated in HTML 5, CSS should be used instead).
+- `cellpadding`, which sets the space between the cell content and the cell border (deprecated in HTML 5, CSS should be used instead).
+- `width`, which sets the width of the table (deprecated in HTML 5, CSS should be used instead).
+- `height`, which sets the height of the table.
+align, which sets the horizontal alignment of the table (deprecated in HTML 5, CSS should be used instead).
+- `bgcolor`, which sets the background color of the table (deprecated in HTML 5, CSS should be used instead).
+
+```HTML
+<table border="1" cellspacing="10" cellpadding="5" width="80%" height="150" align="center" bgcolor="#f2f2f2">
+  <tr>
+    <th>Product</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Product 1</td>
+    <td>$10.00</td>
+  </tr>
+  <tr>
+    <td>Product 2</td>
+    <td>$15.00</td>
+  </tr>
+</table>
+```
+Output:
+<table border="1" cellspacing="10" cellpadding="5" width="80%" height="150" align="center" bgcolor="#f2f2f2">
+  <tr>
+    <th>Product</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Product 1</td>
+    <td>$10.00</td>
+  </tr>
+  <tr>
+    <td>Product 2</td>
+    <td>$15.00</td>
+  </tr>
+</table>
+
+### Other Table-Specific Attributes
+The `<summary>` attribute gives a summary of the table for users who use assistibe technologies like screen readers.
+```HTML
+<table>
+  <caption>Monthly Sales</caption>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$10,000</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$12,000</td>
+    </tr>
+    <tr>
+      <td>March</td>
+      <td>$15,000</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Total</td>
+      <td>$37,000</td>
+    </tr>
+  </tfoot>
+  <summary>This table shows the monthly sales figures for the first quarter of the year.</summary>
+</table>
+```
+Output:
+<table>
+  <caption>Monthly Sales</caption>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$10,000</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$12,000</td>
+    </tr>
+    <tr>
+      <td>March</td>
+      <td>$15,000</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Total</td>
+      <td>$37,000</td>
+    </tr>
+  </tfoot>
+  <summary>This table shows the monthly sales figures for the first quarter of the year.</summary>
+</table>
+
+---
+**Navigation:**  
+[← Back: Getting Started](01-getting-started.md) | [Next: Exploring Visual and Interactive Elements →](03-exploring-visual-and-interactive-elements.md)
