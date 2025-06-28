@@ -25,9 +25,7 @@ The most common image formats used on the web are:
 - GIF (Graphics Interchange Format) best suited for simple animated graphics or images with limited colours, such as icons or buttons. GIF images can also be used to create simple animations
 - SVG (Scalable Vector Graphics) is ideal for images that need to be scaled without losing quality
 
-> To check  compatibility with different web browser you use this:
-> <a href="https://caniuse.com/" target="_blank">caniuse.com</a>
-
+> To check  compatibility with different web browser you use this: [caniuse.com](https://caniuse.com)
 
 ### Image Location
 When adding images, it's important to consider the location of the image file. If the image is stored locally (oon your computer), it will need to be uploaded to the website's server.
@@ -82,7 +80,7 @@ The `border` attributes specifies the width of the border around the image.
 <img src="example.jpg" alt="Example image" border="2">
 ```
 
-#### The `haspace` and `vspace` Attributes
+#### The `hspace` and `vspace` Attributes
 The `haspace` and `vspace` attributes specify the horizontal and vertical space around the image, respectively. 
 ```HTML
 <img src="example.jpg" alt="Example image" hspace="10" vspace="10">
