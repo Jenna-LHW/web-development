@@ -21,13 +21,13 @@ Welcome to my CSS notes!
 - Image Properties
 
 3.[The Box Model](03-the-box-model.md)
--Box Model Essentials
--Adding Backgrounds to Box Elements
--Controlling Content Layout
--Controlling Element Visibility
--Understanding Positioning in CSS
--Customizing Tables with CSS
--Customizing Forms with CSS
+- Box Model Essentials
+- Adding Backgrounds to Box Elements
+- Controlling Content Layout
+- Controlling Element Visibility
+- Understanding Positioning in CSS
+- Customizing Tables with CSS
+- Customizing Forms with CSS
 
 4.[Floats and Media Queries](04-floats-and-media-queries.md)
 - CSS Layout Options
