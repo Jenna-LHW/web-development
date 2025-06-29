@@ -2,7 +2,7 @@
 ## What You Will Learn
 - [What is CSS](#what-is-css)
 - [Including CSS in a Web Page](#including-css-in-a-web-page)
-- [Creating and Linking External Stylesheets](#creating-and-linking-external-styelsheets)
+- [Creating and Linking External Stylesheets](#creating-and-linking-external-stylesheets)
 - 
 
 ## What is CSS
