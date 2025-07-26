@@ -1,8 +1,8 @@
 # Web Development Learning Journey
-Learning HTML, CSS and JavaScript - notes, projects and code examples
+Learning HTML and CSS - notes, projects and code examples
 
 ## About This Repository
-This repository documents my journey learning web development with HTML, CSS and JavaScript. As a beginner in web development, I'm sharing my notes, code examples and projects to help other learners and track my own progress.
+This repository documents my journey learning web development with HTML and CSS. As a beginner in web development, I'm sharing my notes, code examples and projects to help other learners and track my own progress.
 
 ## Learning Goals
 
