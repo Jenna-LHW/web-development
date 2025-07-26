@@ -3,6 +3,7 @@
 - [What is CSS](#what-is-css)
 - [Including CSS in a Web Page](#including-css-in-a-web-page)
 - [Creating and Linking External Stylesheets](#creating-and-linking-external-sytlesheets)
+- [CSS Rules](#css-rules)
 - 
 
 ## What is CSS
@@ -147,4 +148,38 @@ In your HTML files, link your CSS file using the `<link>` element. Place this el
 After deploying your CSS file, thoroughly test your website on different browsers and devices to ensure that the styling looks consistent and functions correctly.
 
 
-## CSS Files and Directories
+## CSS Rules
+CSS employs a very straightforward syntax that consists of CSS Rules.
+
+Basic Structure of a CSS rule:
+```
+selector {
+  property: value;
+  another-property: another-value;
+}
+```
+### Selectors, Properties and Values
+| Syntax Component | Definition |
+|--- | --- |
+|Selector| Specifies which HTML elements the rule will apply to. For Example:  element selector `p` will target all `<p>` elements|
+| Property| Defines the aspect you want to to style, such as color, font-size, margin, etc|
+| Value | Determines the styling details.Example:  `color: blue;`|
+| Declaration Block | A set of property-value pairs enclosed in curly braces `{}`. |
+
+### Combining Selectors
+When working with CSS, you'll frequently come accross situations where you need to apply the same styles to multiple elements that share common attributes.
+
+Syntax:
+```
+selector1, selector2, selector3 {
+  property: value;
+}
+```
+> Note:
+> Many properties in CSS can take multiple values separated by commans within the property-value pair.  
+> Example:
+> ```
+> p {
+>  font-family: "Roboto", Arial, sans-serif;
+> }
+> ```
